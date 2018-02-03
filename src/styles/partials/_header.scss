@@ -1,0 +1,27 @@
+.header__wrap {
+  background: $off-black;
+  color: $solid-white;
+  margin-bottom: $size-med;
+  padding: $size-med 0;
+}
+
+.header__title {
+  font-family: Monoton;
+  color: $off-white;
+  font-size: $size-xl;
+  margin: 0;
+  text-decoration: none;
+}
+
+.header__subtitle {
+  color: $off-white;
+  font-size: $size-med;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (min-width: $breakpoint) {
+  .header__wrap {
+    margin-bottom: $size-xl;
+  }
+}
