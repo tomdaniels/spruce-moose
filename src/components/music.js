@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Music = () => (
-    <div>
-        This is the music page.
+    <div className="container">
+        This is the music page
     </div>
 );
 

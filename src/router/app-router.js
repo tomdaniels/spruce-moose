@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from '../components/header';
-import SpruceMoose from '../components/spruce-moose-app';
+import Landing from '../components/landing';
 import Music from '../components/music';
 
 const AppRouter = () => (
@@ -12,9 +12,10 @@ const AppRouter = () => (
                 <Route
                     exact
                     path="/"
-                    component={SpruceMoose}
+                    component={Landing}
                 />
                 <Route
+                    exact
                     path="/music"
                     component={Music}
                 />
