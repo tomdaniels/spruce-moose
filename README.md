@@ -13,5 +13,5 @@ React Web site for Spruce Moose band
 ```bash
     git clone git@github.com:tomdaniels/spruce-moose.git && cd spruce-moose
     yarn install
-    yarn run dev-server
+    yarn watch
 ```
